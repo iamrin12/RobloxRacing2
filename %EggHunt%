@@ -1,0 +1,42 @@
+GameName = "Roblox Racing 2" 
+
+tab1name = "Main" 
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))() 
+
+local GameName = Library:NewWindow(GameName) 
+
+local Tab1 = GameName:NewSection(tab1name) 
+
+Tab1:CreateButton("Egg1", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1727.87341, 211.077682, 1403.48816, 0.92566216, -0.163915932, 0.34100014, 0.000112410431, 0.901398838, 0.432989806, -0.378351033, -0.400763959, 0.834409237))
+end) 
+
+Tab1:CreateButton("Egg2", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1810.57483, 210.294205, 1238.78003, 0.216522053, 0.305952817, -0.927098215, -1.15925678e-08, 0.949625492, 0.313387066, 0.976277709, -0.0678552017, 0.205614865))
+end) 
+
+Tab1:CreateButton("Egg3", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1750.01709, 214.998047, 1046.11511, 0.123305179, 0.40536353, -0.905801415, -6.32415986e-09, 0.912766933, 0.408480734, 0.992368817, -0.0503677838, 0.112548895))
+end) 
+
+Tab1:CreateButton("Egg4", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1653.66016, 216.435822, 1175.29395, -0.973356783, 0.0063106711, -0.229208946, 1.09613346e-10, 0.999621212, 0.0275219642, 0.229295805, 0.0267886911, -0.972988069))
+end) 
+
+Tab1:CreateButton("Egg5", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1163.22974, 215.735504, 1281.26379, -0.931994379, -0.208040297, 0.296826005, -3.33560699e-08, 0.818892121, 0.57394743, -0.362472683, 0.534915805, -0.763202906))
+end) 
+
+Tab1:CreateButton("Egg6", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1437.31348, 211.39743, 1408.10571, 0.817433894, -0.166750774, 0.551358283, 7.5455997e-09, 0.95718205, 0.289486617, -0.576022387, -0.236636177, 0.782433093))
+end) 
+
+Tab1:CreateButton("Egg7", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1551.19189, 209.943832, 1487.1095, -0.970419347, 0.0514506474, -0.235879362, -4.65675898e-09, 0.977027774, 0.213111967, 0.24142544, 0.206807986, -0.948126674))
+end) 
+
+Tab1:CreateButton("Egg8", function(value)
+game.Players.LocalPlayer.Character:PivotTo(CFrame.new(-1552.91858, 209.756958, 1173.34607, 0.925099969, -0.252212912, 0.283863902, 6.16836449e-09, 0.747553885, 0.6642012, -0.379723668, -0.614452481, 0.691562057))
+end)
+local Tab2 = GameName:NewSection("justrinn")
